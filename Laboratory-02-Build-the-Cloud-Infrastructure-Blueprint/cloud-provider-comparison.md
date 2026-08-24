@@ -37,6 +37,14 @@ The main similarity I noticed is that all three providers offer the basic infras
 
 After comparing the three providers, I noticed that they are more similar than I expected. The names of the services are different, but their main purpose is almost the same. This helped me understand that learning the basic cloud infrastructure concepts is more important than memorizing the name of one provider's services.
 
+## Tools and Assistance
+
+- **GitHub** — Used for repository hosting, version control, and organizing laboratory files.
+- **KillerCoda** — Used as a cloud-based Linux environment for the laboratory activity.
+- **Markdown** — Used to create and organize the documentation.
+- **AWS, Azure, and Google Cloud Official Documentation** — Used to research cloud services and infrastructure components.
+- **ChatGPT** — Used for grammar checking, improving structure, explaining technical concepts, organizing the documentation, and helping me better understand the differences between AWS, Azure, and Google Cloud services.
+
 ## References
 
 Amazon Web Services. (n.d.). *What is Amazon EC2?* AWS Documentation.
