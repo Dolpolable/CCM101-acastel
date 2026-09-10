@@ -10,7 +10,6 @@ AWS operates a massive global footprint designed for high availability and fault
 The AWS Management Console is a web-based interface that allows users to access and manage their AWS resources. It provides a visual layout to search for services, manage billing, monitor resource health, and launch new infrastructure. It also includes an integrated command-line interface called AWS CloudShell.
 
 ![AWS Management Console](screenshots/aws-console.png)
-*(Note: Ensure you place your screenshot in the screenshots directory)*
 
 ## Four (4) Core Services
 1. **Amazon EC2 (Elastic Compute Cloud):** Provides scalable virtual servers (instances) for computing capacity in the cloud.
