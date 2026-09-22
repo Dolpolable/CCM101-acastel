@@ -1,1 +1,11 @@
+# Mission Reflection
 
+The performance differences between a Docker container and a traditional Virtual Machine are immediately visible during installation and startup. Deploying an operating system on a Virtual Machine requires provisioning emulated hardware, booting a full guest OS kernel, and running background daemon services, which regularly takes several minutes. In contrast, running an Nginx container took only seconds because the Docker engine skips hardware emulation and guest OS initialization entirely. The container simply starts as an isolated process on the host operating system kernel, making deployment near-instantaneous.
+
+Port mapping (`-p 8080:80`) is necessary because containers reside in their own isolated virtual network namespace. By default, services running inside a container are unreachable from outside networks or host interfaces. Specifying `-p 8080:80` commands the Docker daemon to bind port 8080 on the host machine and forward incoming TCP traffic directly to internal port 80 where Nginx listens. Without this forwarding rule, HTTP requests sent to the host system cannot reach the isolated web server.
+
+When the `docker rm` command is executed, the container instance and its top writable layer are permanently deleted from the host disk. Any ephemeral changes, cache files, logs, or application state generated inside the container during runtime are lost unless they were explicitly persisted to an external Docker volume or host bind mount.
+
+Containerization fundamentally transforms DevOps by establishing identical runtime environments from local development laptops to staging and cloud production environments. Because code, runtime binaries, and configurations are packaged into an immutable image, developers and operations teams eliminate the common "it works on my machine" problem. Software delivery cycles accelerate through standard CI/CD pipelines that can reliably build, test, and deploy containers without environmental drift.
+
+My GitHub portfolio continues to evolve from basic theoretical cloud knowledge into practical, infrastructure-level engineering. Documenting real command outputs, architecture trade-offs, and operational commands provides a solid, verifiable track record of cloud-native and system administration competencies.
