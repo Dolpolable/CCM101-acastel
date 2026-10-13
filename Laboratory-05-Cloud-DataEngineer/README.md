@@ -28,11 +28,11 @@ At the end of this laboratory activity, you should be able to:
  Continue expanding a professional GitHub Cloud Computing Portfolio.
 
 ## Tools Used
-* **Operating System:** Ubuntu Linux (KillerCoda Playground)
-* **Container Engine:** Docker Engine / Docker CLI
-* **Object Storage Server:** MinIO (`minio/minio`)
-* **Protocols & Interfaces:** S3 API (Port 9000), HTTP Web Console (Port 9001)
-* **Documentation:** Markdown
+KillerCoda – Ubuntu playground for running commands.
+Docker – Used to deploy and run the MinIO container.
+MinIO – Used to store and manage files.
+Web Browser – Used to access the MinIO console.
+GitHub – Used to store and organize the laboratory files.
 
 ## Skills Learned
 * **Storage Architecture Evaluation:** Differentiating data persistence models based on latency, structure, scalability, and application use cases.
