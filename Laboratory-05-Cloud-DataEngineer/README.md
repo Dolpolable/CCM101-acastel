@@ -6,14 +6,26 @@
 # Laboratory 05: Cloud Data Engineer
 
 ## Mission Overview
-This laboratory covers the fundamental concepts of cloud storage architectures and the practical deployment of an on-premises, S3-compatible object storage infrastructure. The mission involves analyzing the differences between Block, File, and Object storage, deploying an isolated MinIO server container via Docker on Linux, managing network ports and environment variables, and configuring storage buckets through a web-based management console.
+Congratulations! Your seamless deployment of containerized web servers has caught the attention of
+the senior architects. You have now been temporarily reassigned to the Cloud Data Engineering Team at
+CloudNova Technologies.
+In the cloud, data is everything. However, not all data is stored the same way. While traditional
+computers use hard drives (Block Storage) and shared network drives (File Storage), modern cloud applications
+rely heavily on Object Storage to store massive amounts of unstructured data like images, videos, and backups.
+The industry standard for this is Amazon S3, but today, you will deploy your very own S3-compatible cloud
+storage server using an open-source tool called MinIO.
+Using your KillerCoda Playground, you will combine your new Docker skills with your cloud storage knowledge to
+deploy a live object storage server, create a storage "bucket," and upload data over the web.
+Remember: A cloud engineer doesn't just store data; they ensure it is scalable, accessible, and secure.
 
 ## Objectives
-* Analyze and compare the three primary cloud storage architectures: Block Storage, File Storage, and Object Storage.
-* Deploy an S3-compatible MinIO object storage container using Docker CLI.
-* Configure runtime container settings using environment variables and port forwarding.
-* Access the MinIO Web Console and manage storage buckets and access policies.
-* Document technical deployment processes and configuration specifications.
+At the end of this laboratory activity, you should be able to:
+ Differentiate between Block, File, and Object Storage.
+ Deploy an S3-compatible Object Storage server (MinIO) using Docker.
+ Access a cloud service via a web interface using port forwarding.
+ Create a storage bucket and upload objects (files) to the cloud.
+ Document cloud storage operations using Markdown.
+ Continue expanding a professional GitHub Cloud Computing Portfolio.
 
 ## Tools Used
 * **Operating System:** Ubuntu Linux (KillerCoda Playground)
